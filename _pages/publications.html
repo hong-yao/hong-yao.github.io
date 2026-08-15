@@ -1,36 +1,61 @@
 ---
-layout: archive
-title: "论文成果"
+layout: single
+title: "成果产出"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">更多论文可访问 <a href="{{site.author.googlescholar}}">Google Scholar</a>。</div>
-{% endif %}
+## 论文
 
-{% include base_path %}
+### 期刊论文
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+1. Hong Y, Fu C, Merci B. A novel sensor network based real-time automatic longitudinal ventilation smoke control system for tunnels: A numerical investigation. *Tunnelling and Underground Space Technology*, 2024, 146: 105654. [查看 PDF](/files/publications/sensor-network-smoke-control.pdf)
+2. Hong Y, Shi C, Ren F, et al. Rapid bidirectional prediction between physical field and key control parameters in tunnel fires. *Tunnelling and Underground Space Technology*, 2024, 153: 105982. [查看 PDF](/files/publications/bidirectional-prediction-tust.pdf)
+3. Hong Y, Fu C, Merci B. Numerical analysis of the performance of a PID control based real-time mechanical ventilation system to prevent smoke back-layering in tunnel fires. *Tunnelling and Underground Space Technology*, 2022. [查看 PDF](/files/publications/pid-ventilation-performance.pdf)
+4. Hong Y, Kang J, Fu C. Tunnel fire smoke control based on the PID method: A numerical study. *Tunnelling and Underground Space Technology*, 2022. [查看 PDF](/files/publications/tunnel-fire-pid-study.pdf)
+5. Hong Y, Kang J, Fu C. Optimization and determination of the parameters for a PID based ventilation system for smoke control in tunnel fires: Comparative study between a genetic algorithm and an analytical trial-and-error method. *Tunnelling and Underground Space Technology*, 2023. [查看 PDF](/files/publications/pid-optimization.pdf)
+6. Hong Y, Kang J, Fu C. Rapid prediction of mine tunnel fire smoke movement with machine learning and supercomputing techniques. *Fire Safety Journal*, 2022. [查看 PDF](/files/publications/mine-tunnel-fire.pdf)
+7. Hong Y, Kang J, Fu C. A full-range analytical solution of the critical velocity for smoke control in tunnel fires. *Case Studies in Thermal Engineering*, 2022. [查看 PDF](/files/publications/critical-velocity.pdf)
+8. Hong Y, Shi C, Junyi Li, et al. Rapid bidirectional prediction between the physical fields and key control parameters in tunnel fires. *Journal of Tsinghua University (Science and Technology)*, 2024, 64(6): 1024-1031. [查看 PDF](/files/publications/bidirectional-prediction-tsinghua.pdf)
+9. 洪瑶，康建宏，符策基. 基于 PID 方法的倾斜隧道中火灾烟气控制数值模拟. *中国矿业大学学报*, 2021. [查看 PDF](/files/publications/pid-inclined-tunnel.pdf)
+10. Wu X, Hu Y, Liu H, Hong Y. The potential of hyperbolic films for radiative heat transfer in micro/nanoscale. *DeCarbon*, 2024, 4: 100047. [查看 PDF](/files/publications/hyperbolic-films-potential.pdf)
+11. Wu X, Hu Y, Liu H, Hong Y. Radiative heat transfer between biaxial hyperbolic film in the far-field and near-field. *Materials Today Communications*, 2024, 40: 109619. [查看 PDF](/files/publications/hyperbolic-film-radiative-transfer.pdf)
+12. Li M, Huang X, Wu B, Hong Y, et al. Photolithography-free switchable broadband thermal emitter based on In3SbTe2 for radiative thermal management. *Optics Continuum*, 2025, 4(4): 713-721. [查看 PDF](/files/publications/in3sbte2-emitter.pdf)
+13. He K, Ren F, Li J, Qian X, Li J, Hong Y, et al. Flame properties and maximum ceiling smoke temperature in tunnel fires with two asymmetric fire sources under natural ventilation. *Tunnelling and Underground Space Technology*, 2025, 156: 106191. [查看 PDF](/files/publications/asymmetric-fire-sources.pdf)
+14. Li X, Liu H, Fu C, Shi B, Hong Y. Mass transfer studies of index gases in adsorption process in 5A zeolite and enrichment performance in programed heating experiment. *International Communications in Heat and Mass Transfer*, 2026, 170: 109967. [查看 PDF](/files/publications/zeolite-mass-transfer.pdf)
+15. Zhang K, Chen X, Chen Z, Hong Y, Wu X. A lithography-free VO2-based multilayer structure for phase-change multispectral camouflage and thermal management. *Optics & Laser Technology*, 2026, 199: 115075. [查看 PDF](/files/publications/vo2-multilayer.pdf)
+16. 何志平，洪瑶*，陈佑越，李建. 基于转置卷积神经网络的隧道火灾烟气层高度和逆流长度快速预测模型. *中国安全生产科学技术*, 2025 年 09 期. [查看 PDF](/files/publications/conv-neural-network-tunnel-fire.pdf)
+17. 赵帅，史聪灵，钱小东，周克清，李建，洪瑶. 基于事故树-贝叶斯网络的气体灭火系统可靠性评估. *安全与环境工程*, 2026 年第 01 期. [查看 PDF](/files/publications/fire-suppression-reliability.pdf)
+18. 周福宝，李佳，洪瑶，等. 矿井 CO 化学消纳新方法：理论模型与试验. *煤炭学报*, 2026, 51(1): 539. [查看 PDF](/files/publications/mine-co-consumption.pdf)
+19. Liu H, Xu Z, Yue C, Li R, Hong Y, Ma M, et al. Periodic metafilms enable multispectral camouflage and solar energy utilization. *Infrared Physics & Technology*, 2026, 106568. [查看 PDF](/files/publications/periodic-metafilms.pdf)
+20. Li J, Wang X, Li J, Hong Y, Dai C, Zhou F. Investigation on the influence of the suppressing effect on CO generation for gas explosion. *International Journal of Heat and Mass Transfer*, 2026, 128934. [查看 PDF](/files/publications/co-generation-suppression.pdf)
+21. Chen X, Zhang K, Wu X, Hong Y. A planar TiO2/Si/Al/Si/W multilayer film for synchronized visible camouflage, infrared stealth, and radiative cooling. *International Journal of Heat and Mass Transfer*, 2026, 129299. [查看 PDF](/files/publications/tio2-multilayer.pdf)
+22. Xu Z, Liu H, Yue C, Li R, Wu X, Hong Y. Strong narrowband chiral absorption in anisotropic metasurface induced by high-k dielectrics. *Applied Optics*, 2026. （PDF 待补充）
+23. Zhao F, Wang D, Chen G, Liu H, Wu X, Hong Y. Ultra-broadband and wide-angle solar energy absorption enabled by multilayer structure with periodic metasurface. *Solar Energy*, 2026, 315: 114807. （PDF 待补充）
+24. Liu H, Yu R, Yue C, Li R, Xu Z, Ma Z, Wu X, Hong Y. Near-field radiative heat transfer between hyperbolic films in high-k dielectrics. *International Journal of Heat and Mass Transfer*, 2026, 271(1): 129371. （PDF 待补充）
+25. 李凌，洪瑶*，胡奕晗等. 大尺度隧道火灾烟气精准动态通风控制实验研究. *清华大学学报（自然科学版）*，已录用. （PDF 待补充）
 
+### 会议论文
 
+1. Bidirectional AI prediction for the flame morphology of horizontal jets and control parameters under sub-atmospheric pressures. 13th Asia-Oceania Symposium on Fire Science and Technology (AOSFST 2024), 韩国。
+2. Hong Y, Fu C, Merci B. Preliminary study on the optimization of settings of an automatic smoke control system for tunnel fires by system identification and genetic algorithm. 26th Journées d'Études of the Belgian Section of the Combustion Institute, 比利时。
+3. Hong Y, Fu C, Merci B. Illustration of the potential of a PID-based real-time ventilation control system to prevent smoke back-layering in tunnel fires. 10th International Seminar on Fire and Explosion Hazards, 挪威。
+4. Hong Y, Fu C. Rapid simulation and prediction of roadway fire based on HPC and machine learning. Proceedings of the 27th Annual Academic Conference of Beijing Mechanical Society, 中国。
+5. Hong Y, Fu C. A novel real-time ventilation system based on sensor network and smart controller for smoke control in tunnel fires. 2nd International Symposium on Urban Public Safety and Emergency Rescue, 中国。
+6. Li X, Hong Y, Fu C. A field-network multiscale model in large spatial scale tunnel fire simulation. 2nd International Symposium on Urban Public Safety and Emergency Rescue, 中国。
 
+## 发明专利
+
+1. 赵晨，周福宝，史聪灵，张晴，何理，赵端，刘阳，洪瑶，伍彬彬. 基于手机导航数据识别路面坍塌的方法及装置，CN202511842903.9。
+2. 赵晨，周福宝，史聪灵，张晴，何理，赵端，刘阳，洪瑶，伍彬彬. 基于车辆移动终端感知数据的桥面坍塌识别方法及系统，CN202511842872.7。
+3. 赵晨，周福宝，史聪灵，张晴，何理，赵端，刘阳，洪瑶，伍彬彬. 基于车内手机姿态进行车辆坠落识别的方法及装置，CN202511842902.4。
+
+## 标准与著作
+
+1. 国家能源投资集团有限责任公司企业标准：《安全生产管理体系 第 9 部分：铁路运输》，Q/GN 0174.9-2024。
+2. 中国安全生产科学研究院企业标准：《COClean-WQ100 尾气 CO 高效消纳装备》，Q/AKY001-2025。
+3. 《国家能源集团安全生产管理体系实施指南》，应急管理出版社，2024 年 12 月，参编。
+
+## 软件著作权
+
+简历中暂未列出软件著作权信息，后续可在此补充软件名称、登记号、完成日期及本人排序。

@@ -11,7 +11,7 @@ main:
   - title: "首页"
     url: /
 
-  - title: "论文成果"
+  - title: "成果产出"
     url: /publications/
 
   - title: "科研项目"
@@ -19,3 +19,6 @@ main:
     
   - title: "个人简历"
     url: /cv/
+
+  - title: "工作记录"
+    url: /work-records/

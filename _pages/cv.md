@@ -31,8 +31,6 @@ redirect_from:
 - 美国国家标准局（NIST）热释放速率预测竞赛全球第一名
 - 北京大学校长奖学金、学术创新奖
 
-## 论文成果
+## 成果产出
 
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+论文、专利、标准与著作详见[成果产出](/publications/)页面。

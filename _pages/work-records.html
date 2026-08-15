@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "工作记录"
+permalink: /work-records/
+author_profile: true
+---
+
+这里用于记录工作心得、科研过程、项目复盘与其他经验。
+
+{% if site.work_records.size > 0 %}
+{% for post in site.work_records reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+{% else %}
+目前尚无记录。
+{% endif %}

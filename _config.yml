@@ -231,6 +231,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  work_records:
+    output: true
+    permalink: /work-records/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -288,6 +291,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _work_records
+  - scope:
+      path: ""
+      type: work_records
+    values:
+      layout: single
+      author_profile: true
+      share: false
 
 
 # Sass/SCSS
