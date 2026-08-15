@@ -30,7 +30,7 @@ author_profile: true
 19. Liu H, Xu Z, Yue C, Li R, Hong Y, Ma M, et al. Periodic metafilms enable multispectral camouflage and solar energy utilization. *Infrared Physics & Technology*, 2026, 106568. [查看 PDF](/files/publications/periodic-metafilms.pdf)
 20. Li J, Wang X, Li J, Hong Y, Dai C, Zhou F. Investigation on the influence of the suppressing effect on CO generation for gas explosion. *International Journal of Heat and Mass Transfer*, 2026, 128934. [查看 PDF](/files/publications/co-generation-suppression.pdf)
 21. Chen X, Zhang K, Wu X, Hong Y. A planar TiO2/Si/Al/Si/W multilayer film for synchronized visible camouflage, infrared stealth, and radiative cooling. *International Journal of Heat and Mass Transfer*, 2026, 129299. [查看 PDF](/files/publications/tio2-multilayer.pdf)
-22. Xu Z, Liu H, Yue C, Li R, Wu X, Hong Y. Strong narrowband chiral absorption in anisotropic metasurface induced by high-k dielectrics. *Applied Optics*, 2026. （PDF 待补充）
+22. Xu Z, Liu H, Yue C, Li R, Hong Y, Ma M, et al. Strong narrowband chiral absorption in anisotropic metasurface induced by high-k dielectrics. *Applied Optics*, 2026. （PDF 待补充）
 23. Zhao F, Wang D, Chen G, Liu H, Wu X, Hong Y. Ultra-broadband and wide-angle solar energy absorption enabled by multilayer structure with periodic metasurface. *Solar Energy*, 2026, 315: 114807. （PDF 待补充）
 24. Liu H, Yu R, Yue C, Li R, Xu Z, Ma Z, Wu X, Hong Y. Near-field radiative heat transfer between hyperbolic films in high-k dielectrics. *International Journal of Heat and Mass Transfer*, 2026, 271(1): 129371. （PDF 待补充）
 25. 李凌，洪瑶*，胡奕晗等. 大尺度隧道火灾烟气精准动态通风控制实验研究. *清华大学学报（自然科学版）*，已录用. （PDF 待补充）
