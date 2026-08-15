@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "zh-CN"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "洪瑶｜科研主页"
+site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "洪瑶"
 title_separator          : "-"
 name                     : &name "洪瑶"
 description              : &description "洪瑶，中国安全生产科学研究院工程师，研究城市安全、消防安全与计算流体力学。"
@@ -23,10 +23,10 @@ repository               : "hong-yao/hong-yao.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :
+  avatar           : "profile.jpg"
   name             : "洪瑶"
   pronouns         : # example: "she/her"  
-  bio              : "中国安全生产科学研究院工程师"
+  bio              : "工程师"
   location         : "北京"
   employer         : "中国安全生产科学研究院"
   uri              : # URL
